@@ -1,0 +1,60 @@
+::selection {
+    background: #b2dfdb;
+}
+
+:root {
+    --main-font: "Roboto Condensed", "Arial", sans-serif;
+    --secondary-font: "Consolas", "Menlo", monospace;
+
+    --teal: #009688;
+    --red: #e53935;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+body a {
+    color: var(--teal);
+    border-radius: 4px;
+    padding: 2px;
+    font-family: var(--secondary-font);
+}
+
+body a:hover {
+    color: white;
+    background-color: var(--teal);
+}
+
+.close-btn {
+    color: var(--red);
+}
+
+.close-btn:hover {
+    color: white;
+    background-color: var(--red);
+}
+
+#dl-speed {
+    font-family: monospace;
+}
+
+#ul-speed {
+    font-family: monospace;
+}
+
+/* loading animation */
+
+.loader {
+    border: 16px solid #b2dfdb; /* light-teal */
+    border-top: 16px solid #009688; /* teal */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

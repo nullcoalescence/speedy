@@ -1,0 +1,15 @@
+{
+  "name": "speedy",
+  "version": "1.0.0",
+  "description": "a speed-test taskbar applet",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.8",
+    "speedtest-net": "^1.5.1"
+  }
+}
