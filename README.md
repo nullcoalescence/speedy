@@ -1,16 +1,11 @@
 # speedy
-an internet speedtest taskbar applet made with Electron
+An internet speedtest taskbar applet made with Electron
 
-# install and run
+# Install and run
 ```
-$ git clone https://github.com/bendotbike/speedy.git c:/speedy
-$ cd c:/speedy
+$ cd $working_directory$
+$ git clone https://github.com/bendotdirectory/speedy.git speedy
+$ cd speedy
 $ npm install
 $ electron . 
 ```
-
-@TODO
-- upload executables
-- make platform exclusive icons
-- tweak loading icon
-- write docs
