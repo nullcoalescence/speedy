@@ -10,6 +10,6 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^15.5.5",
-    "speedtest-net": "^1.5.1"
+    "speedtest-net": "^2.2.0"
   }
 }
